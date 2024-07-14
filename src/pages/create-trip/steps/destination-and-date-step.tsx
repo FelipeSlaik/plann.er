@@ -69,22 +69,17 @@ export function DestinationAndDateStep({
         </div>
       )}
 
-
-
       <div className="w-px h-6 bg-zinc-800 " />
 
       {isGuestsInputOpen ? (
 
-
         <Button onClick={closeGuestsInput} variant="secondary">
-
           Alterar local/data
           <Settings2 className="size-5" />
         </Button>
       ) : (
 
         <Button onClick={openGuestsInput} variant="primary">
-
           Continuar
           <ArrowRight className="size-5" />
         </Button>
